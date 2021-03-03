@@ -24,6 +24,7 @@ void decomposeEssentialMat( InputArray _E, OutputArray _R1, OutputArray _R2, Out
     R1.copyTo(_R1);
     R2.copyTo(_R2);
     t.copyTo(_t);
+    cout << "hello" << endl;
 }
 
 int recoverPose( InputArray E, InputArray _points1, InputArray _points2, OutputArray _R,
